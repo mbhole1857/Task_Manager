@@ -1,0 +1,7 @@
+
+ <p>{{taskItem.id}} - {{taskItem.title}} 
+     <span class="float-right">
+         <button (click)="removeItem()" class="btn btn-danger btn-small">X</button>
+         <button routerLink="/task/{{taskItem.id}}" class="btn btn-light btn-small">></button>
+        </span>
+    </p>
